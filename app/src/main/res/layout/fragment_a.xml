@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".ex03.Fragmento01">
+
+        <Button
+            android:id="@+id/bt_mais"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="MAIS" />
+
+        <Button
+            android:id="@+id/bt_menos"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="MENOS"/>
+
+    </LinearLayout>
+
+</LinearLayout>
